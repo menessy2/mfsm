@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\FSMCommands">
+      <UniqueIdentifier>{afb2630b-efc0-4937-9417-58b170d88c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FSMCommands">
+      <UniqueIdentifier>{2e154ba3-6689-4e02-a38e-c6ec05f66d27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Add.cpp">
+      <Filter>Source Files\FSMCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Out.cpp">
+      <Filter>Source Files\FSMCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Sleep.cpp">
+      <Filter>Source Files\FSMCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Wait.cpp">
+      <Filter>Source Files\FSMCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Run.cpp">
+      <Filter>Source Files\FSMCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Source Files\FSMCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>Source Files\FSMCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="MFSM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFSMParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FSM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files\FSMCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Out.h">
+      <Filter>Header Files\FSMCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>Header Files\FSMCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Run.h">
+      <Filter>Header Files\FSMCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Sleep.h">
+      <Filter>Header Files\FSMCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Wait.h">
+      <Filter>Header Files\FSMCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>Header Files\FSMCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="MFSM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MFSMParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

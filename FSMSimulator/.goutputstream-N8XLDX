@@ -1,0 +1,11 @@
+FSM text
+VAR X, Y
+States:
+a: out "hello xb", out "hello me" , wait
+b: out "hello xb2", out "hello me2" , wait
+
+Transitions:
+
+a, b, 1
+b, a, 2
+b, b, 1

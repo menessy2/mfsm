@@ -1,0 +1,5 @@
+MFSM mFsmOne
+COMVAR X, Y, Z
+machines:
+samples/fsmOne.fsm
+samples/fsmTwo.fsm

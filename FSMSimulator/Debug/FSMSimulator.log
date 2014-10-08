@@ -1,0 +1,62 @@
+﻿Build started 5/5/2014 5:37:33 AM.
+     1>Project "C:\Users\lenovo\Documents\Visual Studio 2012\Projects\FSMSimulator\FSMSimulator\FSMSimulator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Add.cpp Commands.cpp End.cpp FSM.cpp FSMParser.cpp GeneralParser.cpp MFSM.cpp MFSMParser.cpp Out.cpp Run.cpp Sleep.cpp State.cpp Wait.cpp main.cpp
+         main.cpp
+         Wait.cpp
+         State.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\state.cpp(19): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\state.cpp(23): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\state.cpp(28): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\state.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+         Sleep.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\sleep.cpp(16): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+         Run.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\run.cpp(15): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'int', possible loss of data
+         Out.cpp
+         MFSMParser.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\mfsmparser.cpp(45): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\mfsmparser.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\mfsmparser.cpp(42): warning C4101: 'comma' : unreferenced local variable
+         MFSM.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\mfsm.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\mfsm.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\mfsm.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+         GeneralParser.cpp
+         FSMParser.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\fsmparser.cpp(51): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\fsmparser.cpp(48): warning C4101: 'comma' : unreferenced local variable
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\fsmparser.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+         FSM.cpp
+         End.cpp
+         Commands.cpp
+         Add.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\add.cpp(68): warning C4293: '<<' : shift count negative or too big, undefined behavior
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\add.cpp(70): warning C4293: '<<' : shift count negative or too big, undefined behavior
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\add.cpp(72): warning C4293: '<<' : shift count negative or too big, undefined behavior
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\add.cpp(74): warning C4293: '<<' : shift count negative or too big, undefined behavior
+         Generating Code...
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\add.cpp(34): warning C4715: 'Add::execute' : not all control paths return a value
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fsmsimulator\fsmsimulator\mfsm.cpp(77): warning C4715: 'MFSM::get_element_ptr' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Documents\Visual Studio 2012\Projects\FSMSimulator\Debug\FSMSimulator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\Documents\Visual Studio 2012\Projects\FSMSimulator\Debug\FSMSimulator.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Documents\Visual Studio 2012\Projects\FSMSimulator\Debug\FSMSimulator.lib" /MACHINE:X86 Debug\Add.obj
+         Debug\Commands.obj
+         Debug\common.obj
+         Debug\End.obj
+         Debug\FSM.obj
+         Debug\GeneralParser.obj
+         Debug\main.obj
+         Debug\FSMParser.obj
+         Debug\MFSM.obj
+         Debug\MFSMParser.obj
+         Debug\Out.obj
+         Debug\Run.obj
+         Debug\Sleep.obj
+         Debug\State.obj
+         Debug\Wait.obj
+         FSMSimulator.vcxproj -> C:\Users\lenovo\Documents\Visual Studio 2012\Projects\FSMSimulator\Debug\FSMSimulator.exe
+     1>Done Building Project "C:\Users\lenovo\Documents\Visual Studio 2012\Projects\FSMSimulator\FSMSimulator\FSMSimulator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.15

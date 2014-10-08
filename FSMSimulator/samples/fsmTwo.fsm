@@ -1,0 +1,10 @@
+FSM fsmTwo
+States:
+a: out "state A machine 2", sleep 1 , run samples/fsmOne , wait
+b: out "thank you for using fsmTwo" , end
+
+Transitions :
+
+a,b,1
+a, b ,2
+

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Graph&lt;NODE, EDGE&gt;" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABEAAAQAEAAAAQAAAAEAAIAAAAgAAAAQAAAAAAA=</HashCode>
+      <FileName>FSM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Out" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Out.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commands" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAAAAAACAAAAEAAAAAAAAAAAAQIEAAAAAAAA=</HashCode>
+      <FileName>Commands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Add" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAIAAAAA=</HashCode>
+      <FileName>Add.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECABEAAAAQCoEABACAEgIAAEAAAAECIAABAAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAABAAAAAABAESAkJAJEAIQAEQBEABABAAgA=</HashCode>
+      <FileName>FSM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSMParser" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAhAAAAABAAAAAACAAAgAAAAAAAAQIEABAAAAAA=</HashCode>
+      <FileName>FSMParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="End" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>End.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wait" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAEAAAAAAQAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Wait.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sleep" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAQAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Sleep.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpecialNode&lt;NODE, EDGE&gt;" Collapsed="true">
+    <Position X="12" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAA=</HashCode>
+      <FileName>FSM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
